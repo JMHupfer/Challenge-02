@@ -36,10 +36,28 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    font-size: large;
-    margin-top: 75%;
+    /* font-size: large; */
     margin: 0;
     padding: 0;
+    margin-top: 75%;
+
+  }
+
+  .abt-me {
+    margin-right: 56%;
+    font-size: large;
+  }
+
+  .contact {
+    margin-right: 58%;
+    margin-top: 25%;
+    font-size: large;
+  }
+
+  .portfolio {
+      margin-right: 50%;
+      margin-top: 25%;
+      font-size: large;
   }
 
   nav li:hover {
