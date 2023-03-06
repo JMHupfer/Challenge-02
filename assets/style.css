@@ -136,6 +136,7 @@
   .card {
    display: flex;
    flex-wrap: wrap;
+   padding: 15px;
    height: 100%;
    width: 0 auto;
   } 
@@ -143,6 +144,17 @@
   .card-img-top {
     display: block;
     width: 100%;
+    background-image: cover;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: beige;
+  }
+
+  .card-link:hover {
+    cursor: pointer;
+    border-bottom: 2px solid beige;
   }
 
   /* .main-card {
@@ -155,7 +167,7 @@
 
   .card-body {
     line-height: 1.5;
-    font-size: 0.9em;
+    font-size: 1.7em;
     padding: 15px;
     background: #28282B;
     color: beige;
@@ -207,7 +219,7 @@
     display: flex;
     flex-wrap: wrap;
     font-size: medium;
-    padding-bottom: 351px;
+    padding-bottom: 35px;
   }
 
   .call {
