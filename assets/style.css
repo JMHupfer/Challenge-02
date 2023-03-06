@@ -134,11 +134,10 @@
   }
 
   .card {
-    displaY: flex;
-    flex-wrap: wrap;
-    /* float: left; */
-    width: 30%;
-    text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+   width: 0 auto;
   } 
 
   .card-img-top {
@@ -160,20 +159,18 @@
     padding: 15px;
     background: #28282B;
     color: beige;
+    height: 100%;
+    width: 100%;
   }
 
   .contacts {
     display: flex;
+    font-size: small;
     padding: 0;
     margin: 0;
     margin-top: 10%;
     text-align: start;
     text-transform: uppercase;
-  }
-
-  .contacts a:hover {
-    border-bottom: 2px solid black;
-    cursor: pointer;
   }
 
   #call-me {
@@ -182,6 +179,7 @@
     padding: 0;
     background-color: #353935;
     color: beige;
+    margin-bottom: 2%;
   }
 
   /* footer {
@@ -204,12 +202,20 @@
     font-size: large;
   } */
 
-  .class {
-    margin-left: 10%;
+  /* ask about text */
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    padding-bottom: 351px;
+  }
+
+  .call {
+    margin-left: 1%;
   }
 
   .email {
-    margin-left: 25%;
+    margin-left: 20%;
   }
 
   .github {
@@ -218,6 +224,11 @@
 
   .linked {
     margin-left: 25%;
+  }
+
+  .contacts a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
   }
 
   /* .footer a:hover {
