@@ -6,7 +6,7 @@
   }
 
   html {
-      scroll-behavior: smooth;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -52,11 +52,17 @@
   }
   
   .portfolio {
-      margin-right: 50%;
-      margin-top: 25%;
-      font-size: large;
+    margin-right: 50%;
+    margin-top: 25%;
+    font-size: large;
   }
   .contact {
+    margin-right: 58%;
+    margin-top: 25%;
+    font-size: large;
+  }
+
+  .resume {
     margin-right: 58%;
     margin-top: 25%;
     font-size: large;
@@ -190,12 +196,16 @@
     display: block;
     object-fit: cover;
     width: 100%;
+    height: 65%;
+  }
+
+  .card-img-tops2:hover {
+    opacity: 0.6;
   }
 
   .card-img-top {
     display: block;
     width: 100%;
-    height: 100%;
   }
 
   /*.card-link {
