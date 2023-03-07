@@ -175,8 +175,7 @@
   }
 
   .card {
-   display: flex;
-   flex-wrap: wrap;
+   display: block;
    padding: 15px;
    height: 100%;
    width: 100%;
@@ -196,7 +195,7 @@
     display: block;
     object-fit: cover;
     width: 100%;
-    height: 65%;
+    height: 25%;
   }
 
   .card-img-tops2:hover {
@@ -225,6 +224,17 @@
     background: #28282B;
     color: beige;
   } */
+
+  .card-body1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 1.7em;
+    padding: 15px;
+    background: #28282B;
+    color: beige;
+  }
 
   .card-body {
     line-height: 1.5;
@@ -296,7 +306,7 @@
   }
 
   .linked {
-    margin-left: 25%;
+    margin-left: 20%;
   }
 
   .contacts a:hover {
