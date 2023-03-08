@@ -286,13 +286,14 @@
   } */
 
   /* ask about text */
-  .links {
+  .contact-links {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     font-size: medium;
     padding-bottom: 35px;
   }
-
+/* 
   .call {
     margin-left: 1%;
   }
@@ -307,7 +308,7 @@
 
   .linked {
     margin-left: 20%;
-  }
+  } */
 
   .contacts a:hover {
     border-bottom: 2px solid black;
