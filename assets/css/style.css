@@ -40,7 +40,6 @@
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    /* font-size: large; */
     margin: 0;
     padding: 0;
     margin-top: 75%;
@@ -86,8 +85,6 @@
 
   main {
     display: block;
-    /* margin-left: 275px;
-    padding: 15px;   */
     width: 100%;
     margin: 0 auto;
     padding-left: 270px;
@@ -115,48 +112,29 @@
 
   .biography {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
-    text-align: start;
-    font-size: large;
+    text-align: center;
+    font-size: x-large;
   }
 
-  #bio {
+  .biography p {
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .biography h3 {
+    display: block;
     text-align: center;
     padding-block: 15px;
+    width: 100%;
     background-color: black;
     color: beige;
     text-transform: uppercase;
   }
-
-  .bio4 {
-    margin: 15px;
-  }
-
-  .bio5 {
-    margin: 15px;
-  }
-
-  .bio6 {
-    margin:15px
-  }
-
-  #bio2 {
-    text-align: center;
-    padding-block: 0;
-    margin: 2%;
-    color: black;
-    text-transform: uppercase;
-  }
-
-  #bio3 {
-    text-align: center;
-    padding-block: 0;
-    margin: 2%;
-    color: black;
-    text-transform: uppercase;
-  }
-
 
   #projects {
     text-align: center;
@@ -168,7 +146,6 @@
 
   .cards {
     display: flex;
-    /* flex-wrap: wrap;*/
     padding: 0;
     margin: 0;
     margin-top: 5%;
@@ -206,24 +183,6 @@
     display: block;
     width: 100%;
   }
-
-  /*.card-link {
-    text-decoration: none;
-    color: beige;
-  }
-
-  .card-link:hover {
-    cursor: pointer;
-    border-bottom: 2px solid beige;
-  } */
-
-  /* .main-card {
-    line-height: 2.5;
-    font-size: 1.4em;
-    padding: 15px;
-    background: #28282B;
-    color: beige;
-  } */
 
   .card-body1 {
     display: block;
@@ -265,26 +224,6 @@
     margin-bottom: 2%;
   }
 
-  /* footer {
-    display: flex;
-    padding: 0;
-    margin-left: 0;
-  }
-
-  .footer a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .footer-items {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 2%;
-    font-size: large;
-  } */
-
   /* ask about text */
   .contact-links {
     display: flex;
@@ -293,31 +232,9 @@
     font-size: medium;
     padding-bottom: 35px;
   }
-/* 
-  .call {
-    margin-left: 1%;
-  }
-
-  .email {
-    margin-left: 20%;
-  }
-
-  .github {
-    margin-left: 25%;
-  }
-
-  .linked {
-    margin-left: 20%;
-  } */
 
   .contacts a:hover {
     border-bottom: 2px solid black;
     cursor: pointer;
   }
-
-  /* .footer a:hover {
-    border-bottom: 2px solid black;
-    cursor: pointer;
-  } */
-
  
